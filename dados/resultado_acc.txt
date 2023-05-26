@@ -1,0 +1,75 @@
+cont: 1/1 - len batch:316
+10/10 [==============================] - 11s 538ms/step
+10/10 [==============================] - 30s 2s/step
+10/10 [==============================] - 11s 1s/step
+10/10 [==============================] - 10s 981ms/step
+Efficient Net B3
+Precision: 0.5485714077949524, Recall: 0.6114649772644043, Accuracy: 0.5569620132446289
+tf.Tensor(
+[[80 61]
+ [79 96]], shape=(2, 2), dtype=int32)
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.50      0.53       159
+         1.0       0.55      0.61      0.58       157
+
+    accuracy                           0.56       316
+   macro avg       0.56      0.56      0.56       316
+weighted avg       0.56      0.56      0.56       316
+
+Efficient Net B7
+Precision: 0.6000000238418579, Recall: 0.5159235596656799, Accuracy: 0.5886076092720032
+tf.Tensor(
+[[105  76]
+ [ 54  81]], shape=(2, 2), dtype=int32)
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.66      0.62       159
+         1.0       0.60      0.52      0.55       157
+
+    accuracy                           0.59       316
+   macro avg       0.59      0.59      0.59       316
+weighted avg       0.59      0.59      0.59       316
+
+Resnet
+Precision: 0.5064935088157654, Recall: 0.4968152940273285, Accuracy: 0.5094936490058899
+tf.Tensor(
+[[83 79]
+ [76 78]], shape=(2, 2), dtype=int32)
+              precision    recall  f1-score   support
+
+         0.0       0.51      0.52      0.52       159
+         1.0       0.51      0.50      0.50       157
+
+    accuracy                           0.51       316
+   macro avg       0.51      0.51      0.51       316
+weighted avg       0.51      0.51      0.51       316
+
+VGG16
+Precision: 0.5737704634666443, Recall: 0.2229299396276474, Accuracy: 0.5316455960273743
+tf.Tensor(
+[[133 122]
+ [ 26  35]], shape=(2, 2), dtype=int32)
+              precision    recall  f1-score   support
+
+         0.0       0.52      0.84      0.64       159
+         1.0       0.57      0.22      0.32       157
+
+    accuracy                           0.53       316
+   macro avg       0.55      0.53      0.48       316
+weighted avg       0.55      0.53      0.48       316
+
+Combinação dos Modelos
+Precision: 0.6323529481887817, Recall: 0.5477706789970398, Accuracy: 0.6170886158943176
+tf.Tensor(
+[[109  71]
+ [ 50  86]], shape=(2, 2), dtype=int32)
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.69      0.64       159
+         1.0       0.63      0.55      0.59       157
+
+    accuracy                           0.62       316
+   macro avg       0.62      0.62      0.62       316
+weighted avg       0.62      0.62      0.62       316
+
